@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arohyadav10/Node-JS-Examples#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "log4js": "^6.3.0"
   }
