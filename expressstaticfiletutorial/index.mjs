@@ -1,12 +1,11 @@
 var express= require("express"); 
-var  join  =require('path').join;
+import { join } from 'path' 
 const app = express() 
 
 var PORT = process.env.port || 3000 
 
 // View Engine Setup 
-app.set("views", join(__dirname))
-app.use(express.static('public'));   
+app.set("views", join(__dirname)) 
 app.set("view engine", "ejs") 
 
 app.get("/mysubmit", function(req, res){ 
